@@ -1,0 +1,12 @@
+{
+  "version": "exploratory-tilts-v1",
+  "purpose": "Follow-up after main pilot; separate new instances, no change to main protocol",
+  "instances": [["complement", 103], ["aligned", 203], ["tight", 303]],
+  "tilt_strength_sd": 0.5,
+  "arms": ["cost", "lower_duration", "higher_income"],
+  "repeats": 5,
+  "endpoint": "economic bins within 15% of the reference scale, alongside the unchanged 5% endpoint",
+  "total_xy_evaluations": 40,
+  "raw_proposal_cap": 64,
+  "additional_calls": 16
+}

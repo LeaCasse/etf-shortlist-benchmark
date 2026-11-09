@@ -1,0 +1,9 @@
+method,runs,mean_new_calls,mean_normalized_regret,near_best_hit_rate_5pct,mean_profiles_5pct,mean_profiles_15pct,beats_shortlist_rate
+uniform,30,16.00,0.103628,0.300,0.300,0.800,0.667
+swap,30,16.00,0.054610,0.567,0.567,1.000,0.667
+rank_proxy,30,16.00,0.000000,1.000,1.000,1.167,0.667
+rank_residual,30,16.00,0.000000,1.000,1.000,1.167,0.667
+diverse_residual,30,16.00,0.000533,1.000,1.000,1.133,0.667
+gibbs_residual,30,16.00,0.022841,0.900,0.900,1.067,0.667
+xy_proxy,30,16.00,0.006989,0.967,0.967,1.100,0.667
+xy_residual,30,16.00,0.027760,0.800,0.800,1.033,0.667

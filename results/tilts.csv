@@ -1,0 +1,7 @@
+method,runs,mean_new_calls,mean_normalized_regret,near_best_hit_rate_5pct,mean_profiles_5pct,mean_profiles_15pct
+rank_residual,15,16.00,0.000000,1.000,1.667,2.333
+gibbs_residual,15,16.00,0.010551,0.933,1.333,1.867
+xy_residual,15,16.00,0.009388,1.000,1.400,1.867
+rank_tilted,15,16.00,0.000000,1.000,1.667,2.333
+gibbs_tilted,15,16.00,0.006011,1.000,1.400,1.933
+xy_tilted,15,16.00,0.005775,1.000,1.467,2.133

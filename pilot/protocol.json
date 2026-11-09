@@ -1,0 +1,22 @@
+{
+  "version": "pilot-v2",
+  "scope": "synthetic, 12 eligible funds, 2 sleeves, two names per sleeve",
+  "dev": [["complement", 11], ["aligned", 12], ["tight", 13]],
+  "evaluation": [["complement", 101], ["complement", 102], ["aligned", 201], ["aligned", 202], ["tight", 301], ["tight", 302]],
+  "shortlist_per_sleeve": 4,
+  "initial_calls": 16,
+  "additional_calls": 16,
+  "budget_checkpoints": [0, 4, 8, 16],
+  "proposal_cap": 64,
+  "proposal_repeats": 5,
+  "relative_regret_threshold": 0.05,
+  "reference_scale": "median feasible cost minus certified full minimum",
+  "exposure_bins": {"duration_years": [1.55, 1.85, 2.15], "distribution_yield": [0.038, 0.043, 0.048]},
+  "ridge_alpha": 1.0,
+  "gibbs_beta": 1.5,
+  "xy_layers": 1,
+  "xy_gamma_grid": [0.25, 0.5, 0.8, 1.1, 1.5, 2.0, 2.6, 3.2],
+  "xy_beta_grid": [-0.8, -0.4, 0.2, 0.4, 0.8],
+  "xy_train_alpha": 0.25,
+  "methods": ["uniform", "swap", "rank_proxy", "rank_residual", "diverse_residual", "gibbs_residual", "xy_proxy", "xy_residual"]
+}
